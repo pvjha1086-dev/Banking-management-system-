@@ -1,0 +1,13 @@
+Banking Management System is a Java-based project developed using OOP concepts and JDBC connectivity. The system allows account creation, deposit, withdrawal and balance inquiry. Customer data is stored in MySQL database and JDBC is used to connect the Java application with the database."
+OOP Concepts Used
+Encapsulation → Account class me data private.
+Inheritance → SavingsAccount, CurrentAccount (agar add karna chaho).
+Abstraction → Common banking operations.
+Polymorphism → Different account types ke methods.
+JDBC Flow
+Load Driver
+Create Connection
+Create Statement / PreparedStatement
+Execute Query
+Process Result
+Close Connection
